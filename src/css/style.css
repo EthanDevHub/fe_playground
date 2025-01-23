@@ -1,0 +1,23 @@
+/* tag selector */
+body{
+    background-color: #E6E6F2
+}
+
+/* ID selector */
+#paragraph_1{
+    font-size: 30px;
+    /* text-decoration: line-through; */
+}
+
+/* Class selector */
+.paragraph{
+            padding: 1%;
+            border: 2px dashed #4F4F4F;
+            width: 50%;
+            font-weight: bold;
+            font-size: 22px;
+            text-decoration: underline;
+            color: #8080C0
+        }
+
+.content{margin-top: 1%; color: #4F4F4F;}
