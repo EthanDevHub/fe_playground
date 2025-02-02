@@ -1,3 +1,13 @@
+
+
+/*
+[Note]
+flex: none;                     -> fixed setup, need to set width.
+border: 2px dashed #4F4F4F;     -> set the border line size, type and color.
+width: auto;                    -> if set auto, fill the remaining part.
+text-decoration: line-through;  -> line through the words.
+*/
+
 /* tag selector */
 body{
     background-color: #E6E6F2
@@ -5,19 +15,66 @@ body{
 
 /* ID selector */
 #paragraph_1{
+    font-family: "Barriecito", sans-serif;
     font-size: 30px;
-    /* text-decoration: line-through; */
 }
 
 /* Class selector */
 .paragraph{
-            padding: 1%;
-            border: 2px dashed #4F4F4F;
-            width: 50%;
-            font-weight: bold;
-            font-size: 22px;
-            text-decoration: underline;
-            color: #8080C0
-        }
+    /* ===format=== */
+    /* padding: 1%; */
+    /* border: 2px dashed #4F4F4F; */
+    /* width: 50%; */
+    margin-top: 25px;
+    margin-bottom: 10px;
 
-.content{margin-top: 1%; color: #4F4F4F;}
+    /* ===styles=== */
+    font-weight: bold;
+    font-family: "Barriecito", sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #8080C0
+}
+
+.skills{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.skill_lv1{
+    flex: none;
+
+    /* ===format=== */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+
+    /* ===styles=== */
+    font-family: "Barriecito", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content{
+    /* margin-top: 1%; */
+
+    /* ===styles=== */
+    font-size: 16px;
+    font-weight: normal;
+    color: #4F4F4F;
+    font-family: "Barriecito", sans-serif;
+}
+
+.ul_style_1{
+    padding-inline-start: 15px;
+}
+
+.hide{
+    display: none; /* display none, won't show on the page */
+}
+
+
+@media (max-width: 1200px){
+    
+}
